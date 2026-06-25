@@ -1,9 +1,13 @@
+from flask import render_template
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import random
 
 app = Flask(__name__)
 CORS(app) # للسماح للواجهة بالاتصال بالباك إند بدون مشاكل أمنية
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict_stroke():
@@ -52,3 +56,4 @@ def predict_stroke():
 if __name__ == '__main__':
     # تشغيل السيرفر المحلي على بورت 5000
     app.run(debug=True, port=5000)
+    

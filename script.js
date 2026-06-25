@@ -11,7 +11,7 @@ document.getElementById('strokeForm').addEventListener('submit', async function(
     };
 
     try {
-        const response = await fetch('https://stroke-risk-system.onrender.com/predict', {
+        const response = await fetch('/predict', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
