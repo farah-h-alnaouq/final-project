@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Risk - نظام تقييم مخاطر السكتة الدماغية</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-blue-50/50 font-sans text-gray-800">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50 px-6 py-4 flex justify-between items-center border-b border-blue-100">
+        <div class="flex items-center gap-2 text-blue-600 font-bold text-2xl">
+            <i class="fa-solid fa-brain-circuit text-3xl"></i>
+            <span>Stroke<span class="text-blue-400">Risk</span></span>
+        </div>
+        <div class="flex gap-8 font-medium text-gray-600 mx-auto md:mx-0">
+            <a href="#hero" class="hover:text-blue-600 transition">الرئيسية</a>
+            <a href="#info-section" class="hover:text-blue-600 transition">دليل التوعية</a>
+            <a href="#assessment" class="hover:text-blue-600 transition">التقييم الرقمي</a>
+            <a href="#result-section" class="hover:text-blue-600 transition">النتيجة والتفسير</a>
+            <a href="#logs" class="hover:text-blue-600 transition">السجل</a>
+        </div>
+    </nav>
+
+    <section id="hero" class="max-w-6xl mx-auto px-6 py-12 md:py-20 flex flex-col md:flex-row items-center gap-12">
+        <div class="flex-1 space-y-6 text-center md:text-right">
+            <h1 class="text-4xl md:text-5xl font-black text-gray-900 leading-tight">
+                احمِ نفسك ومرضاك من <br><span class="text-blue-600">الجلطات والسكتات الدماغية</span>
+            </h1>
+            <p class="text-gray-600 text-lg leading-relaxed max-w-xl">
+                أدخل البيانات الحيوية والسريرية بدقة، واحصل فوراً على تقييم ذكي لمستوى خطر الإصابة مدعوماً بنظام تفسير العوامل الطبية لتأمين الرعاية الوقائية الفائقة.
+            </p>
+            <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                <a href="#assessment" class="bg-blue-600 text-white px-8 py-3.5 rounded-xl font-bold shadow-lg shadow-blue-600/20 hover:bg-blue-700 transition transform hover:-translate-y-0.5">ابدأ التقييم الآن <i class="fa-solid fa-arrow-left mr-2"></i></a>
+                <a href="#info-section" class="border border-gray-300 bg-white text-gray-700 px-6 py-3.5 rounded-xl font-medium hover:bg-gray-50 transition text-center flex items-center justify-center">تعرف على المزيد</a>
+            </div>
+        </div>
+        <div class="flex-1 flex justify-center relative">
+            <div class="w-72 h-72 md:w-96 md:h-96 bg-blue-600/10 rounded-full absolute -z-10 blur-3xl"></div>
+            <div class="bg-white p-8 rounded-3xl shadow-xl border border-blue-50 flex flex-col items-center justify-center text-center max-w-xs transform hover:scale-105 transition duration-350">
+                <div class="w-24 h-24 bg-blue-600 text-white rounded-2xl shadow-lg shadow-blue-600/30 flex items-center justify-center text-4xl mb-6">
+                    <i class="fa-solid fa-shield-heart"></i>
+                </div>
+                <h3 class="font-bold text-xl mb-2 text-gray-900">تقييم دقيق مستمر</h3>
+                <p class="text-gray-500 text-sm">تحليل فوري مبني على خوارزميات التعلم المدمج المتطورة.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="info-section" class="bg-gradient-to-b from-blue-50/30 to-white border-t border-blue-100/50 py-16 px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center space-y-2 mb-12">
+                <span class="text-blue-600 font-bold text-sm tracking-wider uppercase bg-blue-50 px-4 py-1.5 rounded-full">الدليل الطبي التوعوي</span>
+                <h2 class="text-3xl font-extrabold text-gray-900 mt-2">ما هي السكتة الدماغية وكيف نواجهها؟</h2>
+                <p class="text-gray-500 max-w-2xl mx-auto">فهم طبيعة الجلطات وتحديد أبعادها هو الخطوة الأولى والأساسية للوقاية وإنقاذ الأرواح.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm space-y-3">
+                    <div class="w-12 h-12 bg-red-50 text-red-500 rounded-xl flex items-center justify-center text-xl shadow-sm">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800">تعريف الجلطة ومدى خطورتها</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        تحدث السكتة الدماغية عندما ينقطع تدفق الدم عن أحد أجزاء الدماغ أو ينخفض بشكل كبير، مما يحرم الأنسجة الحيوية من الأكسجين والمواد المغذية، وتبدأ خلايا الدماغ بالموت خلال دقائق معدودة. 
+                    </p>
+                    <p class="text-red-600 font-medium text-sm">
+                        <i class="fa-solid fa-circle text-[6px] ml-1.5 align-middle"></i> تكمن خطورتها في إمكانية تسببها بضعف دائم، فقدان النطق، أو السكتات المفاجئة إذا لم تُعالج فوراً.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm space-y-3">
+                    <div class="w-12 h-12 bg-green-50 text-green-500 rounded-xl flex items-center justify-center text-xl shadow-sm">
+                        <i class="fa-solid fa-heart-circle-check"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800">كيف نقلل من احتمالية حدوثها؟</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        يمكن تفادي النسبة الأكبر من خطر السكتات عبر التحكم الصارم والذكي في المؤشرات السريرية الحيوية، وأهمها:
+                    </p>
+                    <ul class="text-gray-600 text-sm space-y-1.5 list-disc list-inside">
+                        <li>ضبط مستويات ضغط الدم بانتظام والمحافظة عليه في النطاق الطبيعي.</li>
+                        <li>مراقبة كوليسترول الدم والابتعاد عن الأطعمة الغنية بالدهون المشبعة.</li>
+                        <li>الإقلاع التام والنهائي عن التدخين، والسيطرة على مستويات سكر الدم.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm space-y-3 md:col-span-2">
+                    <div class="w-12 h-12 bg-blue-50 text-blue-500 rounded-xl flex items-center justify-center text-xl shadow-sm">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800">هل يمكن حل المشكلة وتخفيف أضرارها؟</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        <strong>نعم، بكل تأكيد!</strong> عامل الوقت هو الفارق الحاسم بين الشفاء التام والعجز الدائم. عند حدوث السكتة، يمكن إعطاء المريض أدوية ومذيبات الجلطات الفعالة (مثل حقنة tPA) خلال 
+                        <span class="text-blue-600 font-bold">الـ 3 إلى 4.5 ساعات الأولى</span> من ظهور الأعراض لإعادة فتح الشرايين المقفلة بالكامل.
+                    </p>
+                    <div class="bg-blue-50/50 p-4 rounded-xl border border-blue-100 text-xs text-blue-800 flex items-center gap-3">
+                        <i class="fa-solid fa-clock-rotate-left text-lg"></i>
+                        <span>قاعدة <strong>F.A.S.T</strong> السريعة لتمييز الأعراض: تدلي الوجه (Face)، ضعف الذراع (Arm)، صعوبة الكلام (Speech)، ووقت الاتصال فوراً بالحقن الوقائي والإنقاذ (Time).</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="assessment" class="bg-white border-y border-blue-50 py-16 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center space-y-2 mb-12">
+                <h2 class="text-3xl font-extrabold text-gray-900">أدخل البيانات الصحية للمريض</h2>
+                <p class="text-gray-500">يرجى تعبئة الحقول الطبية الحيوية بدقة لضمان حساب النسبة بالشكل الصحيح</p>
+            </div>
+
+            <form id="strokeForm" class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-blue-50/30 p-8 rounded-3xl border border-blue-100/50">
+                <div class="space-y-2">
+                    <label class="font-semibold text-gray-700 flex items-center gap-2"><i class="fa-solid fa-user text-blue-500 text-sm"></i> العمر (بالسنوات)</label>
+                    <input type="number" id="age" required min="1" max="120" placeholder="مثال: 45" class="w-full bg-white border border-gray-200 px-4 py-3 rounded-xl focus:outline-none focus:border-blue-500 transition">
+                </div>
+                <div class="space-y-2">
+                    <label class="font-semibold text-gray-700 flex items-center gap-2"><i class="fa-solid fa-heart-pulse text-blue-500 text-sm"></i> ضغط الدم الانقباضي (Systolic)</label>
+                    <input type="number" id="systolic" required min="80" max="220" placeholder="مثال: 130" class="w-full bg-white border border-gray-200 px-4 py-3 rounded-xl focus:outline-none focus:border-blue-500 transition">
+                </div>
+                <div class="space-y-2">
+                    <label class="font-semibold text-gray-700 flex items-center gap-2"><i class="fa-solid fa-droplet text-blue-500 text-sm"></i> مستوى السكر في الدم (mg/dL)</label>
+                    <input type="number" id="glucose" required min="50" max="400" placeholder="مثال: 110" class="w-full bg-white border border-gray-200 px-4 py-3 rounded-xl focus:outline-none focus:border-blue-500 transition">
+                </div>
+                <div class="space-y-2">
+                    <label class="font-semibold text-gray-700 flex items-center gap-2"><i class="fa-solid fa-dna text-blue-500 text-sm"></i> مستوى الكوليسترول الإجمالي</label>
+                    <input type="number" id="cholesterol" required min="100" max="400" placeholder="مثال: 180" class="w-full bg-white border border-gray-200 px-4 py-3 rounded-xl focus:outline-none focus:border-blue-500 transition">
+                </div>
+                <div class="space-y-2">
+                    <label class="font-semibold text-gray-700 flex items-center gap-2"><i class="fa-solid fa-smoking text-blue-500 text-sm"></i> هل المريض مدخن؟</label>
+                    <select id="smoking" class="w-full bg-white border border-gray-200 px-4 py-3 rounded-xl focus:outline-none focus:border-blue-500 transition">
+                        <option value="1">نعم، مدخن فعّال</option>
+                        <option value="0" selected>لا، غير مدخن</option>
+                    </select>
+                </div>
+                <div class="space-y-2">
+                    <label class="font-semibold text-gray-700 flex items-center gap-2"><i class="fa-solid fa-stethoscopes text-blue-500 text-sm"></i> وجود تاريخ لأمراض القلب؟</label>
+                    <select id="heart_disease" class="w-full bg-white border border-gray-200 px-4 py-3 rounded-xl focus:outline-none focus:border-blue-500 transition">
+                        <option value="1">نعم، يوجد تاريخ مرضي</option>
+                        <option value="0" selected>لا يوجد</option>
+                    </select>
+                </div>
+
+                <div class="md:col-span-2 pt-4">
+                    <button type="submit" class="w-full bg-blue-600 text-white py-4 rounded-xl font-bold text-lg shadow-lg shadow-blue-600/20 hover:bg-blue-700 transition">إجراء الفحص وحساب مستوى الخطورة الذكي</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="result-section" class="hidden py-16 px-6 max-w-5xl mx-auto">
+        <div class="text-center space-y-2 mb-10">
+            <h2 class="text-3xl font-extrabold text-gray-900">نتيجة تقييم المخاطر الحالية</h2>
+            <p class="text-gray-500">تم تحليل المدخلات بواسطة محرك الذكاء الاصطناعي بنجاح</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+            <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm flex flex-col items-center justify-center text-center">
+                <h3 class="font-bold text-gray-700 mb-6 text-lg">مستوى الخطورة</h3>
+                <div class="relative w-44 h-44 flex items-center justify-center rounded-full border-8 border-gray-100" id="gaugeContainer">
+                    <span class="text-4xl font-black text-blue-600" id="resultPercentage">0%</span>
+                </div>
+                <span class="mt-6 px-6 py-2 rounded-full font-bold text-sm bg-blue-50 text-blue-600" id="riskLevelLabel">طبيعي / منخفض</span>
+            </div>
+
+            <div class="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm md:col-span-2 space-y-4">
+                <h3 class="font-bold text-gray-700 text-lg flex items-center gap-2"><i class="fa-solid fa-chart-simple text-blue-500"></i> تحليل وتفسير الذكاء الاصطناعي (XAI Factors)</h3>
+                <p class="text-sm text-gray-500">يوضح المخطط أدناه أكثر العناصر التي ساهمت في رفع أو خفض النسبة بناءً على الأوزان السريرية:</p>
+                
+                <div class="space-y-4 pt-2" id="shapFactorsContainer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="logs" class="max-w-5xl mx-auto px-6 py-16">
+        <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm space-y-6">
+            <div class="flex justify-between items-center flex-wrap gap-4 border-b border-gray-100 pb-4">
+                <div>
+                    <h3 class="font-bold text-xl text-gray-900">سجل التقييمات الأخيرة للمستشفى</h3>
+                    <p class="text-sm text-gray-400">آخر الحالات التي تم فحصها مؤخراً لحفظ السجلات</p>
+                </div>
+                <div class="flex gap-4 text-center">
+                    <div class="bg-blue-50 px-4 py-2 rounded-xl"><span class="block font-black text-blue-600 text-xl">3</span><span class="text-xs text-gray-500 font-medium">مجموع الفحوصات</span></div>
+                </div>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-right border-collapse">
+                    <thead>
+                        <tr class="text-gray-400 text-sm border-b border-gray-100">
+                            <th class="pb-4 font-semibold">التاريخ</th>
+                            <th class="pb-4 font-semibold">العمر</th>
+                            <th class="pb-4 font-semibold">مستوى الخطورة (%)</th>
+                            <th class="pb-4 font-semibold">حالة الخطر</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700 text-sm divide-y divide-gray-50">
+                        <tr>
+                            <td class="py-4 font-medium text-gray-500">24 يونيو 2026</td>
+                            <td class="py-4">54 سنة</td>
+                            <td class="py-4 font-bold text-red-500">76%</td>
+                            <td class="py-4"><span class="px-3 py-1 rounded-full text-xs font-bold bg-red-50 text-red-600">مرتفع جداً</span></td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 font-medium text-gray-500">20 يونيو 2026</td>
+                            <td class="py-4">32 سنة</td>
+                            <td class="py-4 font-bold text-green-500">14%</td>
+                            <td class="py-4"><span class="px-3 py-1 rounded-full text-xs font-bold bg-green-50 text-green-600">منخفض</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-8 text-xs text-gray-400 border-t border-gray-100 bg-white mt-12">
+        جميع الحقوق محفوظة © 2026 نظام التقييم الذكي لمخاطر السكتة الدماغية (Stroke Risk)
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
